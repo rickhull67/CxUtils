@@ -1,4 +1,4 @@
-FROM openjdk:8u212-jdk-stretch
+FROM openjdk:24-ea-17-jdk-oraclelinux8
 
 RUN apt-get update && \
 apt-get install -y maven gradle && \
